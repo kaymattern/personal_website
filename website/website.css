@@ -1,0 +1,211 @@
+#header {
+    font-family: Verdana;
+    font-size: 24px;
+    color: #C71585;
+    background-color: aliceblue;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -110px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #aboutme {
+    top: 100px;
+    background-color: #20B2AA;
+  }
+  
+  #resume {
+    top: 160px;
+    background-color: #C71585;
+  }
+  
+  #projects {
+    top: 220px;
+    background-color: #191970;
+  }
+  
+  #contact {
+    top: 280px;
+    background-color: #9370DB;
+  }
+  
+.face {
+  display: block;
+  border-radius: 250px;
+  box-sizing: border-box;
+  background-color: #DDD;
+  border: 20px solid #20B2AA;
+}
+
+
+img {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    left: 180px;
+    top: 100px;
+
+}
+
+  html{
+    min-height: 100%;
+    overflow: hidden;
+  }
+ 
+#intro {
+    text-align: center;
+    font-size: 30px;
+}
+
+.css-typing {
+  margin-left: 750px;
+  margin-top: -220px;
+}
+
+.css-typing p {
+  border-right: .15em solid #191970;
+  font-family: "Verdana";
+  font-size: 28px;
+  font-weight: 700px;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+.css-typing p:nth-child(1) {
+  width: 18em;
+  -webkit-animation: type 3s steps(50, end);
+  animation: type 3s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 24em;
+  opacity: 0;
+  -webkit-animation: type2 3s steps(40, end);
+  animation: type2 3s steps(40, end);
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 26em;
+  opacity: 0;
+  -webkit-animation: type3 3s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 3s steps(40, end);
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid #191970;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid #191970;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid #191970;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid #191970;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
